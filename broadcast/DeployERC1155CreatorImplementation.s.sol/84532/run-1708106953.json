@@ -20,43 +20,14 @@
       "additionalContracts": []
     }
   ],
-  "receipts": [
-    {
-      "transactionHash": "0x34b6d1860f597b1cd79f4384c5837fcdbe95900da2fc4aff9f7c165c79312668",
-      "transactionIndex": "0x1",
-      "blockHash": "0x97cbdcaa31fa629af4160bc175f0d903de63ebdb8edd32a286a2649cb8c86b48",
-      "blockNumber": "0x5e22f6",
-      "from": "0xf7562596Ef09DA2443Df68B4D1A8d47e2EE87021",
-      "to": null,
-      "cumulativeGasUsed": "0x52acb7",
-      "gasUsed": "0x51f576",
-      "contractAddress": "0xbf324d6e9A4281b8fC99909878ce5E23b717C9D5",
-      "logs": [
-        {
-          "address": "0xbf324d6e9A4281b8fC99909878ce5E23b717C9D5",
-          "topics": [
-            "0x7f26b83ff96e1f2b6a682f133852f6798a09c465da95921460cefb3847402498"
-          ],
-          "data": "0x00000000000000000000000000000000000000000000000000000000000000ff",
-          "blockHash": "0x97cbdcaa31fa629af4160bc175f0d903de63ebdb8edd32a286a2649cb8c86b48",
-          "blockNumber": "0x5e22f6",
-          "transactionHash": "0x34b6d1860f597b1cd79f4384c5837fcdbe95900da2fc4aff9f7c165c79312668",
-          "transactionIndex": "0x1",
-          "logIndex": "0x0",
-          "removed": false
-        }
-      ],
-      "status": "0x1",
-      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000040000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-      "type": "0x2",
-      "effectiveGasPrice": "0xb2d0821c"
-    }
-  ],
+  "receipts": [],
   "libraries": [],
-  "pending": [],
+  "pending": [
+    "0x34b6d1860f597b1cd79f4384c5837fcdbe95900da2fc4aff9f7c165c79312668"
+  ],
   "path": "/Users/abdulqawibhoira/hyype/projects/creator-core-solidity/broadcast/DeployERC1155CreatorImplementation.s.sol/84532/run-latest.json",
   "returns": {},
-  "timestamp": 1708106979,
+  "timestamp": 1708106953,
   "chain": 84532,
   "multi": false,
   "commit": "30ea638"
