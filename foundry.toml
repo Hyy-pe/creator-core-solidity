@@ -4,4 +4,10 @@ src = 'contracts'
 out = 'out'
 libs = ["lib"]
 
+[etherscan]
+ethereum = { key = "${ETHERSCAN_API_KEY}" }
+ethereum_sepolia = {key = "${ETHERSCAN_API_KEY}", url = "https://api-sepolia.etherscan.io/api", chain = 11155111}
+base_mainnet = {key = "${ETHERSCAN_API_KEY}", url = "https://api.basescan.org/api", chain = 8453}
+base_sepolia = {key = "${ETHERSCAN_API_KEY}", url = "https://api-sepolia.basescan.org/api", chain = 84532}
+
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
